@@ -46,16 +46,13 @@ realreturns/
 ├── dbt/               # projeto dbt (profiles: duckdb + databricks)
 ├── dags/              # Airflow
 ├── dashboard/         # Streamlit
-├── resources/         # gerado pelo builder (gitignored)
-└── docs/plans/        # design doc
+└── resources/         # gerado pelo builder (gitignored)
 ```
 
 ## Roadmap
 
 - [ ] **Fase 1** — pipeline completo local (Airflow + Spark local + DuckDB + dbt + dashboard).
 - [ ] **Fase 2** — builder do cookbook gerando DAB + deploy no Databricks.
-- [ ] **Fase 3** — framework completo (views, alerts, validação) + design doc público.
+- [ ] **Fase 3** — framework completo (views, alerts, validação) + post público.
 
-## Design
 
-O design completo está em [`docs/plans/2026-10-08-realreturns-design.md`](docs/plans/2026-10-08-realreturns-design.md).

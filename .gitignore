@@ -51,5 +51,5 @@ credentials/
 *.key
 *.pem
 
-# --- Notas de estudo pessoais (nao publicas) ---
-docs/plans/*fase1*
+# --- Processo / notas de estudo (nao publico) ---
+docs/plans/
