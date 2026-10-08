@@ -50,3 +50,6 @@ airflow/plugins/
 credentials/
 *.key
 *.pem
+
+# --- Notas de estudo pessoais (nao publicas) ---
+docs/plans/*fase1*
