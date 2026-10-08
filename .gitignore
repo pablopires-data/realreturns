@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# --- Data / DuckDB ---
+data/
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.db
+
+# --- dbt ---
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+dbt/.user.yml
+
+# --- Databricks ---
+.databricks/
+*.zip
+
+# --- Generated resources (edited only via the builder) ---
+resources/
+
+# --- Airflow ---
+airflow/logs/
+airflow/dags_data/
+airflow/plugins/
+*.egg-info
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Editor / OS ---
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# --- Secrets ---
+credentials/
+*.key
+*.pem
